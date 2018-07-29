@@ -14,7 +14,7 @@
 邮箱：zenglu.liu@gmail.com
 
 ## 收费
-如果我的咨询服务能解决你的问题，请慷慨打赏，金额不限。如果你觉得我太水，请提供宝贵意见，你的意见可以让我变得更好。
+如果我的咨询服务能解决你的问题，请慷慨打赏，金额不限。如果你觉得我太水，请提供宝贵意见，你的意见可以让我变得更优秀。
 
 ## 付款账号
 支付宝：![alipay](https://github.com/simon-liu/blockchain-consult/blob/master/alipay.png?raw=true)
