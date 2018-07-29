@@ -9,6 +9,7 @@
 ## 联系方式
 坐标：南京
 
+![wechat](https://github.com/simon-liu/blockchain-consult/blob/master/wx.png?raw=true)
 邮箱：zenglu.liu@gmail.com
 
 ## 收费
