@@ -8,7 +8,7 @@
 
 Transaction1 和 Transaction2 的输出都是 5 个比特币，Transaction3 的 2 个输入分别是 Transaction1 和 Transaction2 的输出，一共是 10 个比特币，输出分别是 6 个、3 个比特币，剩余 1 个比特币作为矿工挖矿所得的交易费，这就是一个完整的交易流程。Transaction1 的输入又是先前某笔交易的输出，如此环环相扣，构成了比特币系统的账本。
 
-Transaction3 第二个输出（3 个比特币）的备注是找零（Change），意思是用户给别人转账 6 个比特币，剩余 3 个作为『找零』还放在自己钱包里，这 3 个比特币对应的输出地址可以是用户钱包里的任何地址，当然为了更好的匿名性，最好新建一个钱包地址。每次转账都可能会创建新的钱包地址（用来存放找零），所以交易后最好备份钱包，以免出现故障导致找零的比特币不能使用。这里又引出另一个问题：每次转账后备份钱包太麻烦，于是社区提出了更高级的钱包方案 [Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)，我在后续文章中会讲。
+Transaction3 第二个输出（3 个比特币）的备注是找零（Change），意思是用户给别人转账 6 个比特币，剩余 3 个作为『找零』还放在自己钱包里，这 3 个比特币对应的输出地址可以是用户钱包里的任何地址，当然为了更好的匿名性，最好新建一个钱包地址。每次转账都可能会创建新的钱包地址（用来存放找零），所以交易后最好备份钱包，以免出现故障导致找零的比特币不能使用。这里又引出另一个问题：每次转账后备份钱包太麻烦，于是社区提出了更高级的钱包方案 [Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)，有兴趣的可以看我的[这篇文章](https://github.com/simon-liu/blockchain-consult/blob/master/articles/bitcoin_wallet_principle.generate_key_and_address.md)。
 
 交易的一个有趣地方是：输入的比特币数量等于输出的比特币数量，那如果输入比输出多呢？多出来的会全部作为交易费奖励给矿工。
 
@@ -18,4 +18,4 @@ Transaction3 第二个输出（3 个比特币）的备注是找零（Change）�
 
 文章结尾加个小插曲。比特币刚诞生的时候，比特币的私钥是用很简单的办法生成的：把用户指定的一个短语做 SHA256 HASH，用 HASH 值来做私钥。这种方法的风险在于很多用户用常见的单词或歌词作为短语生成私钥，黑客用庞大的字典去尝试，结果可想而知，reddit 上就有用户抱怨自己的『歌词钱包』被破解。这里有一个示例，这个钱包地址对应的私钥是『password』单词的 HASH 值：[16ga2uqnF1NqpAuQeeg7sTCAdtDUwDyJav](https://www.blockchain.com/btc/address/16ga2uqnF1NqpAuQeeg7sTCAdtDUwDyJav) 可以发现这个地址每收到一笔钱，几乎立即就被转出，可想而知肯定有黑客在监控这个钱包地址。
 
-如果你喜欢我的文章可以在[这里](https://github.com/simon-liu/blockchain-consult)和我交流。
+喜欢我的文章可以在[这里](https://github.com/simon-liu/blockchain-consult)和我交流。
