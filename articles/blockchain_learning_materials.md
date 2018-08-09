@@ -22,5 +22,3 @@ Ethereum 白皮书，内容有点多，如果没精力就简单翻翻吧。
 
 ----------
 ![blockchain_learning_materials](https://raw.githubusercontent.com/simon-liu/blockchain-consult/master/images/blockchain_learning_materials.jpg)
-
-如果你喜欢我的文章可以在[这里](https://github.com/simon-liu/blockchain-consult)和我交流。
