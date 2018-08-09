@@ -1,7 +1,6 @@
 ## 我看过的区块链资料
 
 Wiley.Understanding.Bitcoin.Nov.2014.ISBN.1119019168
-
 这本书是我入门 Bitcoin 的书，力荐！比白皮书容易理解，看完这本书 Bitcoin 白皮书也没必要看了。
 
 [https://whitepaperdatabase.com/bitcoin-btc-whitepaper/](https://whitepaperdatabase.com/bitcoin-btc-whitepaper/)
