@@ -13,9 +13,11 @@
 
 邮箱：zenglu.liu@gmail.com
 
-## 打赏
+## 支持
 如果我的咨询服务能解决你的问题，请慷慨打赏，金额不限。如果你觉得我太水，请提供宝贵意见，你的意见可以让我变得更优秀。
 
 支付宝：![alipay](https://github.com/simon-liu/blockchain-consult/blob/master/images/alipay.png?raw=true)
+
+BTC：18zeb5oibJpb8eEhLwKcBvGFNqdg2W4a8P
 
 ETH：0x6FacF8aCca3546D6bc59af9b6698f96E5FaF0Ec7
