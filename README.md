@@ -7,10 +7,6 @@
 - 10 年研发经验，熟悉多种网络协议、熟悉对称加密和非对称加密
 
 ## 联系方式
-坐标：南京
-
-微信：![wechat](https://github.com/simon-liu/blockchain-consult/blob/master/images/wx.png?raw=true)
-
 邮箱：zenglu.liu@gmail.com
 
 ## 支持
